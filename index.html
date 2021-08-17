@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <section class="about__container">
+        <div class="about__container-image">
+          <img
+            src="./images/headshot.jpg"
+            width="182px"
+            height="172px"
+            alt=""
+          />
+        </div>
+        <div class="about__container-name">
+          <h2>Charles Iheancho O</h2>
+          <p>Frontend Developer</p>
+        </div>
+        <div class="about__container-text">
+          <p>
+            Errr... it is always very hard to describe one’s self even though
+            i’ve known me all my life. Here goes something hopefully. Charles
+            Iheanacho holds a degree in Microbiology. I’ve been building
+            front-end web applications for a while and I enjoy approaching code
+            from a different point of view considering great user interface as
+            well as seamless functionality. Beside programing I’m interested in
+            listening to all genre of music, food, reading random stuff, and
+            fishing(never really tried but I think I would be great). I am also
+            very interested in discussions on technology and how much it would
+            change our perception in the future. Welcome to my life.
+          </p>
+          <span>😎</span>
+        </div>
+
+        <div class="about__container-btns">
+          <button type="submit" id="contact-me">Contact me</button>
+          <a href="./Iheanacho obinna_CV.pdf" download="Iheanacho obinna_CV.pdf"
+            >See CV</a
+          >
+        </div>
+        <div class="about__container-skills">
+          <div class="html-skill logo">
+            <img src="./images/html.png" alt="" />
+          </div>
+          <div class="css-skill logo">
+            <img src="./images/css.png" alt="" />
+          </div>
+          <div class="sass-skill logo">
+            <img src="./images/sass.png" alt="" />
+          </div>
+          <div class="js-skill logo">
+            <img src="./images/js.png" alt="" />
+          </div>
+          <div class="react-skill logo">
+            <img src="./images/react.png" alt="" />
+          </div>
+          <div class="nodejs-skill logo">
+            <img src="./images/nodejs.png" alt="" />
+          </div>
+          <div class="mongodb-skill logo">
+            <img src="./images/mongodb.png" alt="" />
+          </div>
+          <div class="git-skill logo">
+            <img src="./images/git.png" alt="" />
+          </div>
+        </div>
+        <div class="about__container-logos">
+          <div class="hng-logo logo">
+            <a href="https://hng.tech/"
+              ><img src="./images/hng.png" alt=""
+            /></a>
+          </div>
+          <div class="zuri-logo logo">
+            <a href="https://zuri.team/"
+              ><img src="./images/zuri.png" alt=""
+            /></a>
+          </div>
+          <div class="i4G-logo logo">
+            <a href="https://ingressive.org/"
+              ><img src="./images/i4G.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="form__container">
+      <div class="form">
+        <button id="close-btn" class="close-btn">close</button>
+        <form
+          id="my-form"
+          action="https://formspree.io/f/mqkwgbge"
+          method="POST"
+        >
+          <input type="text" placeholder="Enter Name" />
+          <input type="email" name="_replyto" placeholder="Enter Email" />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter Message"
+          ></textarea>
+          <button id="my-form-button" type="submit">Send Message</button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
