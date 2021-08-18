@@ -7,10 +7,12 @@ console.log(closeForm);
 // Open Contact form
 contact.addEventListener("click", function showForm() {
   formContainer.style.visibility = "visible";
+  
 });
 // Close Contact formContainer
 closeForm.addEventListener("click", function closeForm() {
   formContainer.style.visibility = "hidden";
+  
 });
 // Forn Submission
 const form = document.getElementById("my-form");
